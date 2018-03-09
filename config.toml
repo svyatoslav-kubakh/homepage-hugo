@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
+baseurl = "https://kubakh.name/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -9,45 +9,45 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Erlich Bachman"
-title = "Erlich Bachman"
+author = "Svyatoslav Kubakh"
+title = "Svyatoslav Kubakh"
 
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Erlich Bachman"
-intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+author = "Svyatoslav Kubakh"
+intro = "Web developer"
+description = ""
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Svyatoslav Kubakh home page"
+keywords = "homepage,blog,hugo,developer"
 
 ## Social Accounts
 [params.social]
-github = "<username>"
-instagram = "<username>"
-linkedin = "<username>"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
-email = "you@example.com"
+github = "svyatoslav-kubakh"
+instagram = "realksar"
+linkedin = "svyatoslav-kubakh"
+twitter = "realksar"
+facebook = "svyatoslav.kubakh"
+#google = "SvyatoslavKubakh"
+#stackoverflow = "<username>"
+#email = "svyatoslav.kubakh@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2018. Svyatoslav Kubakh. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
-hightlightjs = true
+#hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
@@ -55,13 +55,8 @@ hightlightjs = true
     weight = 100
     identifier = "blog"
     url = "/blog/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+#[[menu.main]]
+#    name = "about"
+#    identifier = "about"
+#    weight = 200
+#    url = "/about/"
