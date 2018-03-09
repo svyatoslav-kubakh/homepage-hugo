@@ -2,15 +2,17 @@
 
 ## About
 
-This site demonstrates the use of the [Hugo Goa Theme](https://github.com/shenoybr/hugo-goa) by [@shenoybr](https://github.com/shenoybr).
+Svyatoslav Kubakh home page
+
+Forked from [Hugo Goa Theme Demo](https://github.com/shenoybr/hugo-goa-demo) by [@shenoybr](https://github.com/shenoybr).
 
 ## Usage
 
 * Install [Hugo](gohugo.io)
-* git clone --recursive https://github.com/shenoybr/hugo-goa-demo
+* git clone --recursive git@gitlab.com:ksar/hugo-homepage.git
 * Run `hugo server -w -v` from the root directory
-* Site will be visible at `localhost:1313/hugo-goa-demo`
+* Site will be visible at `localhost:1313/`
 
 ## License
 
-Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoybr/hugo-goa-demo/master/LICENSE) file for more details.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](LICENSE) file for more details.
