@@ -37,7 +37,7 @@ keywords = "homepage,blog,hugo,developer"
 github = "svyatoslav-kubakh"
 instagram = "realksar"
 linkedin = "svyatoslav-kubakh"
-twitter = "realksar"
+#twitter = "realksar"
 facebook = "svyatoslav.kubakh"
 #google = "SvyatoslavKubakh"
 #stackoverflow = "<username>"
@@ -55,8 +55,8 @@ poweredby = true
     weight = 100
     identifier = "blog"
     url = "/blog/"
-#[[menu.main]]
-#    name = "about"
-#    identifier = "about"
-#    weight = 200
-#    url = "/about/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
