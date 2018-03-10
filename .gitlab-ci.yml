@@ -6,4 +6,5 @@ deploy:
   tags:
     - ksar
   script:
+    - echo ${PROJECT_PATH}
     - hugo -d ${PROJECT_PATH}
