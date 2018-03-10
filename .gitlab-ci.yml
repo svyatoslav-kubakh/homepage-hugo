@@ -6,5 +6,5 @@ deploy:
   tags:
     - ksar
   script:
-    - echo ${PROJECT_PATH}
-    - hugo -d ${PROJECT_PATH}
+    - hugo
+    - rsync public/ ${PROJECT_PATH} --recursive --ignore-times --checksum --progress
