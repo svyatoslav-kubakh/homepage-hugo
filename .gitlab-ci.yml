@@ -1,0 +1,9 @@
+deploy:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - ksar
+  script:
+    - echo test
+    - echo ${PROJECT_PATH}
