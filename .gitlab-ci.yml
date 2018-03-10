@@ -7,4 +7,4 @@ deploy:
     - ksar
   script:
     - hugo
-    - rsync public/ ${PROJECT_PATH} --recursive --ignore-times --checksum --progress
+    - rsync public/ ${PROJECT_PATH} --recursive --ignore-times --checksum --delete --progress --exclude=.git*
