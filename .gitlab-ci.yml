@@ -1,5 +1,6 @@
 deploy:
   stage: deploy
+  environment: production
   only:
     - master
   tags:
