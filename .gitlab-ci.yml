@@ -1,3 +1,6 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 deploy:
   stage: deploy
   environment: production
@@ -7,4 +10,4 @@ deploy:
     - ksar
   script:
     - hugo
-    - rsync public/ ${PROJECT_PATH} --recursive --ignore-times --checksum --delete --progress --exclude=.git*
+    - rsync public/ ${PROJECT_PATH} --recursive --ignore-times --checksum --delete --exclude=.git*
