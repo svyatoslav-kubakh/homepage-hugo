@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl: "https://kubakh.name/"
+baseurl: "http://john-doe.com/"
 builddrafts: false
 canonifyurls: false
 languageCode: "en-US"
@@ -9,8 +9,8 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 
-author: "Svyatoslav Kubakh"
-title: "Svyatoslav Kubakh"
+author: "John Doe"
+title: "John Doe"
 
 theme: "hugo-goa"
 
@@ -24,7 +24,7 @@ permalinks:
 
 ## Site Settings
 params:
-  author: "Svyatoslav Kubakh"
+  author: "John Doe"
   intro: "Web developer"
   description: ""
   authorimage: "headshot.jpg"
@@ -48,7 +48,7 @@ params:
 
   ## Extras
   extra:
-    copyright: "© 2018. Svyatoslav Kubakh. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+    copyright: "© 2018. John Doe. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
     poweredby: true
     #hightlightjs: true
 

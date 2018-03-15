@@ -1,8 +1,8 @@
-# Hugo Goa Demo
+# Hugo Home Page Demo
 
 ## About
 
-Svyatoslav Kubakh home page
+John Doe home page
 
 Forked from [Hugo Goa Theme Demo](https://github.com/shenoybr/hugo-goa-demo) by [@shenoybr](https://github.com/shenoybr).
 

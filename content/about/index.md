@@ -10,7 +10,7 @@ title = "About"
 showpagemeta = false
 +++
 
-<a href="/cv/ks-cv.pdf">
+<a href="/cv/cv.pdf">
     <i class="fa fa-download" aria-hidden="true"></i>
     Download CV
 </a>
