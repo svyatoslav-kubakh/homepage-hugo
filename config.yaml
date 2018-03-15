@@ -37,14 +37,14 @@ params:
 
   ## Social Accounts
   social:
-    github: "svyatoslav-kubakh"
-    instagram: "realksar"
-    linkedin: "svyatoslav-kubakh"
-    #twitter: "realksar"
-    facebook: "svyatoslav.kubakh"
-    #google: "SvyatoslavKubakh"
+    github: "<username>"
+    instagram: "<username>"
+    linkedin: "<username>"
+    #twitter: "<username>"
+    facebook: "<username>"
+    #google: "<username>"
     #stackoverflow: "<username>"
-    #email: "svyatoslav.kubakh@gmail.com"
+    #email: "username@mail.com"
 
   ## Extras
   extra:
